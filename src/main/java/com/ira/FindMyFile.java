@@ -7,12 +7,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-/**
- * Hello world!
- *
- */
 public class FindMyFile
 {
+    //search without recursive
     public static void main(String[] args)
     {
         if (args.length != 2) {
